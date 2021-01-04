@@ -1507,11 +1507,6 @@ namespace TicTacToe
         }
         static void winText()
         {
-            WriteYellowLine("\t\t##  ##   ##    #####\n"
-                          + "\t\t##  ## ##  ## ###   \n"
-                          + "\t\t###### ######    ###\n"
-                          + "\t\t##  ## ##  ## ##### \n");
-
             WriteRedLine("\t\t##     ## ## ##  ##\n"
                        + "\t\t## ### ## ## ### ##\n"
                        + "\t\t#### #### ## ## ###\n"
